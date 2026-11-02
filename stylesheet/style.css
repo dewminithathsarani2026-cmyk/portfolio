@@ -1,0 +1,151 @@
+
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+/* Sections */
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    background: #dbeafe;
+    padding: 100px 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px;
+    line-height: 1.6;
+}
+
+
+/* Content Boxes */
+
+.box {
+    background: white;
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+
+/* Buttons */
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+
+/* Contact Form */
+
+input, textarea {
+    width: 80%;
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Dark Theme */
+
+.dark {
+    background: #222;
+    color: white;
+}
+
+.dark .box {
+    background: #444;
+    color: white;
+}
+
+.dark #home {
+    background: #333;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 15px;
+    }
+
+    section {
+        padding: 30px 10px;
+    }
+
+    input, textarea {
+        width: 95%;
+    }
+
+}
